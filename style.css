@@ -1,0 +1,46 @@
+:root{
+    --heading-color: rgb(255, 149, 149);
+    --para-color:blue;
+    --bg-color:rgb(153, 238, 153);
+    --white-heding: white;
+}
+.box-1 h1{
+    color: var(--heading-color);
+}
+.box-3 h1{
+    color: var(--heading-color);
+}
+.box-5 h1{
+    color: var(--heading-color);
+}
+.box-1 p{
+    color: var(--para-color);
+}
+.box-3 p{
+    color: var(--para-color);
+}
+.box-5 p{
+    color: var(--para-color);
+}
+
+.box-2{
+    background: var(--bg-color);
+    color: var(--white-heding);
+}
+
+main,aside{
+    float: left;
+    background: var(--bg-color);
+    
+}
+main{
+    background:rgb(136, 241, 163);
+    width: 200px;
+}
+aside{
+    background: salmon;
+    width: calc(100% - 200px);
+}
+footer{
+    clear: both;
+}
